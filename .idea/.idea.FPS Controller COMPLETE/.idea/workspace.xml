@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97133f17-0f16-47c1-938d-879d2dd69796" name="Default Changelist" comment="" />
+    <list default="true" id="97133f17-0f16-47c1-938d-879d2dd69796" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -15,6 +23,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jia4vj5iopNNUcu4GH8Bt56nfz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,6 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604289182831</updated>
       <workItem from="1604289204571" duration="4242000" />
+      <workItem from="1604327950563" duration="932000" />
+      <workItem from="1606111931136" duration="9929000" />
     </task>
     <servers />
   </component>
@@ -64,5 +75,15 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="519" y="259" key="Github.ShareDialog" timestamp="1604328139093">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="519" y="259" key="Github.ShareDialog/0.0.1366.728/1366.-185.1920.1040@0.0.1366.728" timestamp="1604328139093" />
+    <state x="399" y="68" key="Github.UntrackedFilesDialog" timestamp="1604328253380">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728/1366.-185.1920.1040@0.0.1366.728" timestamp="1604328253380" />
   </component>
 </project>
