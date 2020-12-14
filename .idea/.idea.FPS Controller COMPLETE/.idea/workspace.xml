@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97133f17-0f16-47c1-938d-879d2dd69796" name="Default Changelist" comment="Ghost activity mechanic added&#10;HUD to track in game, console logs for other stuff">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="97133f17-0f16-47c1-938d-879d2dd69796" name="Default Changelist" comment="Now has models with collision" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +27,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Jake/Desktop/3D Escape Game (2nd Year)/FPS Controller COMPLETE/Assets/Scenes/Scene2.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,6 +86,7 @@
       <workItem from="1604289204571" duration="4242000" />
       <workItem from="1604327950563" duration="932000" />
       <workItem from="1606111931136" duration="11044000" />
+      <workItem from="1607021754898" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="Ghost activity mechanic added&#10;HUD to track in game, console logs for other stuff">
       <created>1606126583554</created>
@@ -103,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606126583554</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Now has models with collision">
+      <created>1607021853217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607021853217</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,11 +120,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Ghost activity mechanic added&#10;HUD to track in game, console logs for other stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ghost activity mechanic added&#10;HUD to track in game, console logs for other stuff" />
+    <MESSAGE value="Now has models with collision" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now has models with collision" />
   </component>
   <component name="WindowStateProjectService">
     <state x="519" y="259" key="Github.ShareDialog" timestamp="1604328139093">
@@ -136,9 +137,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="399" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728/1366.-185.1920.1040@0.0.1366.728" timestamp="1604328253380" />
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1606126822407">
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1607021860132">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1606126822407" />
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1607021860132" />
+    <state x="1366" y="-185" width="1273" height="1015" key="dock-window-1" timestamp="1607022077303">
+      <screen x="1366" y="-185" width="1920" height="1040" />
+    </state>
+    <state x="1366" y="-185" width="1273" height="1015" key="dock-window-1/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1607022077303" />
   </component>
 </project>
