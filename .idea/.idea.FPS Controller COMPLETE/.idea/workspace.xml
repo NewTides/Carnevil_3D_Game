@@ -19,7 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97133f17-0f16-47c1-938d-879d2dd69796" name="Default Changelist" comment="Now has models with collision" />
+    <list default="true" id="97133f17-0f16-47c1-938d-879d2dd69796" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Ferris Wheel Untextured.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Ferris Wheel Untextured.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Large Sign Untextured.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Large Sign Untextured.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Leaves 2 Untextured.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Leaves 2 Untextured.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Rock Untextured.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Rock Untextured.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +98,14 @@
       <workItem from="1604327950563" duration="932000" />
       <workItem from="1606111931136" duration="11044000" />
       <workItem from="1607021754898" duration="323000" />
+      <workItem from="1607956414880" duration="1535000" />
+      <workItem from="1607959703593" duration="824000" />
+      <workItem from="1607962237407" duration="64000" />
+      <workItem from="1610482435129" duration="1162000" />
+      <workItem from="1610484752356" duration="1788000" />
+      <workItem from="1610486601263" duration="1791000" />
+      <workItem from="1610488419401" duration="1054000" />
+      <workItem from="1610490238158" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="Ghost activity mechanic added&#10;HUD to track in game, console logs for other stuff">
       <created>1606126583554</created>
@@ -102,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607021853217</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="h\hslshglssg">
+      <created>1607956440984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607956440984</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +152,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Ghost activity mechanic added&#10;HUD to track in game, console logs for other stuff" />
     <MESSAGE value="Now has models with collision" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now has models with collision" />
+    <MESSAGE value="h\hslshglssg" />
+    <option name="LAST_COMMIT_MESSAGE" value="h\hslshglssg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="519" y="259" key="Github.ShareDialog" timestamp="1604328139093">
@@ -137,10 +164,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="399" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728/1366.-185.1920.1040@0.0.1366.728" timestamp="1604328253380" />
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1607021860132">
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1607957954906">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1607021860132" />
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1607957954906" />
+    <state x="2143" y="247" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610482480836">
+      <screen x="1366" y="-185" width="1920" height="1040" />
+    </state>
+    <state x="2143" y="247" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1610482480836" />
     <state x="1366" y="-185" width="1273" height="1015" key="dock-window-1" timestamp="1607022077303">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
