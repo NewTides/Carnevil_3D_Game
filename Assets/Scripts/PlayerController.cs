@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
 	private int area3Activity = 0;
 	private int area4Activity = 0;
 	
+	[SerializeField] private Transform Player;
+	[SerializeField] private Transform respawnPoint;
+	
 	[SerializeField, Tooltip("Description of this object")]
 	private string description = "";
 
@@ -115,12 +118,19 @@ public class PlayerController : MonoBehaviour
 		
 	}
 
-	/**/
+	/*
 	private void OnTriggerExit(Collider other)
 	{
-		print("Player has entered the area of" + other.name);
-		description = "Ghost Activity is negligible... for now";
+		print("Player has exited the area of" + other.name);
+		//description = "Ghost Activity is negligible... for now";
 		DisplayDetailUI();
+	}*/
+	private void OnTriggerEnter(Collider other)
+	{
+		print("Player has entered the area of" + other.name);
+		//description = "Ghost Activity is negligible... for now";
+		//DisplayDetailUI();
+		CheckActivity(other);
 	}
 	/**/
 
@@ -176,12 +186,26 @@ public class PlayerController : MonoBehaviour
 		print("Area3: " + area3Activity);
 		print("Area4: " + area4Activity);
 		
+		CheckActivity(other);
+	}
+
+	private void CheckActivity(Collider other)
+	{
 		if (area1Activity >= 240 || area2Activity >= 240 || area3Activity >= 240 || area4Activity >= 240)
 		{
 			print("Ghost activity has reached or exceeded critical spookums, you are now dead.");
-			description = "Ghost activity has reached or exceeded critical spookums, you are now dead.";
+			description = "Ghost activity has exceeded the critical threshold, you are now dead.";
+			Player.transform.position = respawnPoint.transform.position;
+			area1Activity = 0;
+			area2Activity = 0;
+			area3Activity = 0;
+			area4Activity = 0;
 		}
-
+		if ((area1Activity >= 0 && area1Activity <= 60 && other.name == "Area1") || (area2Activity >= 0 && area2Activity <= 60 && other.name == "Area2") || (area3Activity >= 0 && area3Activity <= 60 && other.name == "Area3") || (area4Activity >= 0 && area4Activity <= 60 && other.name == "Area4"))
+		{
+			description = "Ghost Activity is negligible... for now";
+			print(description);
+		}
 		if ((area1Activity == 60 && other.name == "Area1") || (area2Activity == 60 && other.name == "Area2") || (area3Activity == 60 && other.name == "Area3") || (area4Activity == 60 && other.name == "Area4"))
 		{
 			description = "Ghost activity in the local area ('" + other.name + "') is currently low.";

@@ -19,17 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97133f17-0f16-47c1-938d-879d2dd69796" name="Default Changelist" comment="">
+    <list default="true" id="97133f17-0f16-47c1-938d-879d2dd69796" name="Default Changelist" comment="Cusor lock &amp; hide implemented - hold Esc to free the mouse. Thresholds for activity updates and death due to ghost activity doubled. Camera sensitivity fixed &amp; movement tweaked. Jump temporarily re-enabled to navigate terrain. New models given mesh colliders. Re-implemented temporary HUD, now in the bottom right of the screen.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/shelf/Uncommitted_changes_before_Update_at_12_01_2021_20_14_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/shelf/Uncommitted_changes_before_Update_at_12_01_2021_20_14__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Controller COMPLETE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Ferris Wheel Untextured.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Ferris Wheel Untextured.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Large Sign Untextured.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Large Sign Untextured.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Leaves 2 Untextured.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Leaves 2 Untextured.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Rock Untextured.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Rock Untextured.FBX.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
@@ -105,7 +102,10 @@
       <workItem from="1610484752356" duration="1788000" />
       <workItem from="1610486601263" duration="1791000" />
       <workItem from="1610488419401" duration="1054000" />
-      <workItem from="1610490238158" duration="628000" />
+      <workItem from="1610490238158" duration="1020000" />
+      <workItem from="1611178451932" duration="1411000" />
+      <workItem from="1611180960823" duration="1231000" />
+      <workItem from="1611183062576" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="Ghost activity mechanic added&#10;HUD to track in game, console logs for other stuff">
       <created>1606126583554</created>
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607956440984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cusor lock &amp; hide implemented - hold Esc to free the mouse. Thresholds for activity updates and death due to ghost activity doubled. Camera sensitivity fixed &amp; movement tweaked. Jump temporarily re-enabled to navigate terrain. New models given mesh colliders. Re-implemented temporary HUD, now in the bottom right of the screen.">
+      <created>1610491182867</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610491182867</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +160,8 @@
     <MESSAGE value="Ghost activity mechanic added&#10;HUD to track in game, console logs for other stuff" />
     <MESSAGE value="Now has models with collision" />
     <MESSAGE value="h\hslshglssg" />
-    <option name="LAST_COMMIT_MESSAGE" value="h\hslshglssg" />
+    <MESSAGE value="Cusor lock &amp; hide implemented - hold Esc to free the mouse. Thresholds for activity updates and death due to ghost activity doubled. Camera sensitivity fixed &amp; movement tweaked. Jump temporarily re-enabled to navigate terrain. New models given mesh colliders. Re-implemented temporary HUD, now in the bottom right of the screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cusor lock &amp; hide implemented - hold Esc to free the mouse. Thresholds for activity updates and death due to ghost activity doubled. Camera sensitivity fixed &amp; movement tweaked. Jump temporarily re-enabled to navigate terrain. New models given mesh colliders. Re-implemented temporary HUD, now in the bottom right of the screen." />
   </component>
   <component name="WindowStateProjectService">
     <state x="519" y="259" key="Github.ShareDialog" timestamp="1604328139093">
@@ -164,10 +172,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="399" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728/1366.-185.1920.1040@0.0.1366.728" timestamp="1604328253380" />
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1607957954906">
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1610491194793">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1607957954906" />
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1610491194793" />
     <state x="2143" y="247" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610482480836">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
